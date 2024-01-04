@@ -30,6 +30,7 @@ body{
     width:480px;
     border-radius:10px;
     box-shadow:2px 4px 16px rgba(0,0,0,.4);
+    background-color:rgb(187, 186, 186);
 }
 .modal-container{
     display:inline-block;
@@ -37,8 +38,27 @@ body{
 }
 .close-button{
     display:flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
-    border-radius:70%;
+    border-radius:50%;
     border:1px solid #eee;
+    padding:0px;
+    font-weight:400;
+    font-size:16px;
+    height:24px; width:24px;
+}
+button{
+    cursor:pointer; /* this makes the cursor a hand instead of the mouse*/
+    padding:8px 16px;
+    border-radius: 8px; /* gives it a nice black border and rounds it out*/
+}
+button.continue{
+    background:rgb(112, 141, 230);
+    border:solid 1px royalblue;
+    color:white;
+}
+button.cancel{
+    background:white;
+    border:solid 1px royalblue;
+    color:royalblue;
 }
