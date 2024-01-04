@@ -18,10 +18,27 @@ body{
     background-color: lightcyan;
     width:48px; height:48px;
     border-radius:50%;
-    align-content: center;
+    align-items: center;
     color:#31408f;
     font-size:35px;
-   
     justify-content: center;
-    
+    font-weight:800px;
+}
+.modal{
+    display:flex;
+    color:white;
+    width:480px;
+    border-radius:10px;
+    box-shadow:2px 4px 16px rgba(0,0,0,.4);
+}
+.modal-container{
+    display:inline-block;
+   margin:15px; padding:15px;
+}
+.close-button{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius:70%;
+    border:1px solid #eee;
 }
